@@ -9,6 +9,7 @@
 	$(function() {
 		$("#member").on("submit", function() {//"확인"버튼을 눌렀을 때...
 			var d = $(this).serialize();//폼 요소에 전송할 데이터를 재가공합니다.
+			// D = string 
 			alert(d);
 
 			$.ajax({

@@ -6,7 +6,7 @@
 
 	
 	if (id.equals(password)) {
-		// ID와 암호가 같으면 로그인에 성공한 것으로 판단.
+		// ID와 암호가 같으면 로그인에 성공한 것으로 판단ㅇ.
 		response.addCookie(Cookies.createCookie("AUTH", id, "/", -1));
 	 	response.sendRedirect("../main/index.jsp");
 		
